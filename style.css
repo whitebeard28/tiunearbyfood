@@ -1,0 +1,89 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+.header {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cdn.hipwallpaper.com/i/84/43/P5OFkd.jpg);
+    width: cover;
+    height: 500px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+p.name {
+    font: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.lastupdate {
+    font: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 24px;
+    font-style: italic;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.food {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    color: rgb(51, 51, 51);
+    align;
+    margin-left: 300px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img.image {
+    display: block;
+    width: 1000px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin-left: 340px;
+}
+
+p.describe {
+    line-height: 32px;
+    margin-left: 340px;
+    margin-right: 340px;
+}
+
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin-left: 340px;
+}
+
+img.profilepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
