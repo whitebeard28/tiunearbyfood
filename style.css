@@ -95,7 +95,7 @@ img.profilepic {
 }
 @media screen and (min-width: 600px) {
      /* phone version */
-      .header {
+    .header {
         padding: 0px;
     }
     img.profilepic {
