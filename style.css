@@ -82,41 +82,31 @@ img.profilepic {
     width: 240px;
 }
 
-@media screen and (max-width: 992px) {
-    /* desktop version */
-    .header {
-        padding: 0px;
-        margin: 0px 0px 20px 0px;
-    }
-    img.profilepic {
-        width: 100px;
-    }
-}
 @media screen and (max-width: 600px) {
-     /* phone version */
+    /* phone version */
     .header {
         padding: 0px;
     }
     img.profilepic {
         width: 100px;
     }
-    p.food{
+    p.food {
         margin-left: 10px;
+        margin-right: 5px;
     }
     a {
         margin-left: 10px;
+        margin-right: 5px;
     }
-
     p {
-    margin-left: 10px;
-    margin-right: auto;
+        margin-left: 10px;
+        margin-right: 5px;
     }
     p.describe {
         margin-left: 10px;
-        margin-right: auto;
+        margin-right: 5px;
     }
     img.image {
         width: 400px;
-      
     }
 }
